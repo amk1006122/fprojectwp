@@ -982,16 +982,15 @@ img {
     text-transform: uppercase;
 }
 
-<!-------About Section----->
-    .about {
-    background-image: url(../image/about1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px 15px;
-    text-align: center;
-    background-color: transparent;
-    height: 500px;
+/* <!-------About Section----->
+.About{
+background-image: url(../image/about1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+padding: 60px 0;
+background-color: #f4f4f4;
+text-align: center;
 }
 
 .about .row {
@@ -1015,14 +1014,14 @@ img {
 .about .icons a {
     font-size: 26px;
     margin: 10px;
-    color: #666;
+    color: blue;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .about .icons a:hover {
     color: #000;
-}
+} */
 
 /* Service Section */
 .service {
