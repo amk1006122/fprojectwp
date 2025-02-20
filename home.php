@@ -297,7 +297,7 @@ if (isset($_COOKIE['user_id'])) {
     <!--design section end-->
     <div class="usage">
         <div class="heading">
-            <h1>how it works</h1>
+            <h1>How it works</h1>
             <img src="image/cheadimg.jpg">
         </div>
         <div class="row">
