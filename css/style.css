@@ -1,0 +1,119 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Variables */
+:root {
+    --space: 2rem;
+    --main-color: #2a1a0f;
+    --black-color: #3a3a3a;
+    --black-opacity: #4e3b31;
+    --white-alpha-40: rgba(225, 225, 225, 0.40);
+    --white-alpha-25: rgba(225, 225, 225, 0.25);
+    --backdrop-filter: blur(5px);
+    --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.40);
+}
+
+/* Global Styling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--main-color);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('image/homebgimage3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-container {
+    max-width: 600px;
+    padding: var(--space);
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    backdrop-filter: var(--backdrop-filter);
+}
+
+.contact-left-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-left-title h2 {
+    color: azure;
+    font-size: 2rem;
+}
+
+.contact-inputs {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-inputs:focus {
+    border-color: var(--main-color);
+    outline: none;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--black-color);
+}
+
+.success-message, .error-message {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .contact-left-title h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
