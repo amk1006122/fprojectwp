@@ -110,6 +110,48 @@ if(isset($_COOKIE['user_id'])){
             <div class="col-md-6 image">
                 <img src="image/about.jpg"  alt="About Home Decor">
             </div>
+            <style>
+      .about{
+       background-image: url(../image/about.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       padding: 60px 0;
+       background-color: #f4f4f4;
+       text-align: center;
+     }
+
+    .about .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+.about .image {
+    flex: 1;
+    text-align: center;
+}
+
+   .about .info {
+    flex:1;
+    text-align: left;
+    padding: 30px;
+  }
+
+   .about .icons a {
+    font-size: 26px;
+    margin: 10px;
+    color: blueviolet;
+    text-decoration: none;
+    margin-bottom: 16px;
+    transition: color 0.3s;
+   }
+
+    .about .icons a:hover {
+    color: blue;
+   }
+</style>
             <div class="col-md-6 info">
                 <div class="h2">The Best Designers</div>
                 <p>We believe your home is a reflection of your personality, and we are here to help you express it. 
