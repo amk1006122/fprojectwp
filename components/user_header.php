@@ -31,8 +31,8 @@
             <img src="uploaded_files/<?= $fetch_profile['image']; ?>">
             <h3 style="margin-bottom: 1rem;"><?= $fetch_profile['name']; ?></h3>
             <div class="flex-btn">
-                <a href="profile.php" class="btn">view profile</a>
-                <a href="components.user_logout.php" onclick="return confirm('logout from this website');" class="btn">logout</a>
+                <a href="admin_panel/profile.php" class="btn">view profile</a>
+                <a href="#" onclick="return confirm('logout from this website');" class="btn">logout</a>
             </div>
             <?php }else{ ?>
                 <h3 style="margin-bottom: 1rem;">please login or register</h3>
@@ -41,7 +41,9 @@
                     <a href="admin_panel/register.php" class="btn">register</a>
                 </div>
             <?php } ?>
+            
         </div>
     </section>
+    
 
 </header>

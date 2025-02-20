@@ -57,7 +57,7 @@
             <p><i class="bx bxs-envelope"></i>binitaacharya@gmail.com</p>
             <p><i class="bx bxs-location-plus"></i>Hämeenlinna, Finland</p>
             <div class="icons">
-                <i class="bx bxl-facebook"></i>
+                <a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a>
                 <i class="bx bxl-twitter"></i>
                 <i class="bx bxl-instagram"></i>
                 <i class="bx bxl-linkedin"></i>
