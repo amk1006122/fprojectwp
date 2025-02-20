@@ -2,7 +2,7 @@
 // Array of products with their details
 $products = [
     [
-        'image' => 'image/price1.jpg',
+        'image' => 'image/price1.1.jpg',
         'discount' => '20%',
         'title' => '2BHK+ Wooden Stuff+Furnish house',
         'price' => '€200-€250',
@@ -32,7 +32,7 @@ $products = [
         'price' => '€200-€250',
     ],
     [
-        'image' => 'image/price6..jpg',
+        'image' => 'image/price6.1.jpg',
         'discount' => 'Clean & glass Interior',
         'title' => 'Washroom + Luxuary Design + Metallic gray',
         'price' => '€400-€450',
@@ -44,15 +44,15 @@ $products = [
         'price' => '€220-€250',
     ],
     [
-        'image' => 'image/price11.jpg',
+        'image' => 'image/price11.1.jpg',
         'discount' => 'Special Discount 35%',
         'title' => 'Mirror and shining Marbel',
         'price' => '€400-€450',
     ],
     [
-        'image' => 'image/price7.jpg',
+        'image' => 'image/price7.1.jpg',
         'discount' => 'Only Cheque accepting',
-        'title' => 'Outdoor Home Park Decor + Firework',
+        'title' => 'Outdoor Home Park Decor + Fireplace',
         'price' => '€210-€250',
     ],
     [
