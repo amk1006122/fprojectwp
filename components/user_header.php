@@ -6,7 +6,7 @@
             <a href="about-us.php">about us</a>
             <a href="shop.php">shop</a>
             <a href="customers.php">order</a>
-            <a href="contact.php">contact us</a>
+            <a href="ordercontact.php">contact us</a>
         </nav>
         <form action="" method="post" class="search-form">
             <input type="text" name="search_product" placeholder="search product..." required maxlength="100">

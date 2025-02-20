@@ -35,7 +35,7 @@
             <a href=""><i class="bx bx-chevron-right"></i>My account</a>
             <a href="customers.php"><i class="bx bx-chevron-right"></i>order history</a>
             <a href="shop.phpordercontact.php"><i class="bx bx-chevron-right"></i>wishlist</a>
-            <a href=""><i class="bx bx-chevron-right"></i>newsletter</a>
+            <a href="admin_panel/add_product.php"><i class="bx bx-chevron-right"></i> Add Product</a>
         </div>
         <div class="box">
             <h3>information</h3>
