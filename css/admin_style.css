@@ -9,6 +9,7 @@
     list-style: none;
 }
 
+
 /* Variables */
 :root {
     --space: 2rem;
@@ -353,7 +354,7 @@ section.post-editor {
         top: 7%;
     }
     .sidebar.active{
-     width: 300px;   
+      width: 300px;   
     }
     .sidebar .profile{
         margin-top: .5rem;

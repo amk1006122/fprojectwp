@@ -2,25 +2,25 @@
 // Array of products with their details
 $products = [
     [
-        'image' => 'image/price1.jpg',
+        'image' => 'image/price1.1.jpg',
         'discount' => '20%',
-        'title' => '2BHK+ Wooden Stuff+Furnish house',
+        'title' => '2BHK+ Wooden Stuff+Furnish house <br>',
         'price' => '€200-€250',
     ],
     [
         'image' => 'image/price2.jpg',
         'discount' => 'Latest Design',
-        'title' => '3BHK+Balcony',
+        'title' => '3BHK+Balcony <br> Wooden work',
         'price' => '€360-€400',
     ],
     [
         'image' => 'image/price3.jpg',
         'discount' => '25%',
-        'title' => '2BHK+kids safty',
+        'title' => '2BHK+kids safty<br> Furnish<br>bookshell',
         'price' => '€320-€350',
     ],
     [
-        'image' => 'image/price4.jpg',
+        'image' => 'image/price4.1.jpg',
         'discount' => 'Fixed Price',
         'title' => '2BHK+Fancy decoration',
         'price' => '€210-€245',
@@ -28,11 +28,11 @@ $products = [
     [
         'image' => 'image/price5-2.jpg',
         'discount' => 'Classic Design',
-        'title' => 'Dining Room+classicDesign',
+        'title' => 'Dining Room+classic Design Interior',
         'price' => '€200-€250',
     ],
     [
-        'image' => 'image/price6..jpg',
+        'image' => 'image/price6.1.jpg',
         'discount' => 'Clean & glass Interior',
         'title' => 'Washroom + Luxuary Design + Metallic gray',
         'price' => '€400-€450',
@@ -40,25 +40,25 @@ $products = [
     [
         'image' => 'image/price6.jpg',
         'discount' => 'Negotiable',
-        'title' => 'Multicolor Contrast Kitchen',
+        'title' => 'Multicolor Contrast Kitchen with blue shine',
         'price' => '€220-€250',
     ],
     [
-        'image' => 'image/price11.jpg',
+        'image' => 'image/price11.1.jpg',
         'discount' => 'Special Discount 35%',
-        'title' => 'Mirror and shining Marbel',
+        'title' => 'Mirror and shining Marbel <br> White stuff',
         'price' => '€400-€450',
     ],
     [
-        'image' => 'image/price7.jpg',
+        'image' => 'image/price7.1.jpg',
         'discount' => 'Only Cheque accepting',
-        'title' => 'Outdoor Home Park Decor + Firework',
+        'title' => 'Outdoor Home Park Decor + Fireplace',
         'price' => '€210-€250',
     ],
     [
         'image' => 'image/price8.jpg',
         'discount' => 'Expensive layout view + Discount15%',
-        'title' => 'Seamlessly Blend Indoor and Outdoors Spaces + swimming pool',
+        'title' => 'Seamlessly Blend Indoor and Outdoors + swimming pool',
         'price' => '€550-€650',
     ],
     [
