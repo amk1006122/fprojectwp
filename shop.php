@@ -90,6 +90,7 @@ $products = [
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body style="background-image:url(image/homebgimage5.jpg); background-repeat: no-repeat; background-size: cover;" >
+<?php include 'components/header.php'; ?>
         
     
     <section class="main-home">
@@ -287,7 +288,7 @@ $products = [
 }
 .down-arrow{
     position: absolute;
-    top: 10%;
+    top: 25%;
     right: 60%
 }
 .down i{

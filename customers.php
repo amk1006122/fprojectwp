@@ -228,5 +228,8 @@ button[type="submit"]:hover {
 }
 
     </style>
+    <div style="justify-content: center; padding-left:45rem;">
+        <a href="home.php" class="btn btn-primary">Back to Home</a>
+    </div>
 </body>
 </html>

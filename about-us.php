@@ -413,7 +413,7 @@ if(isset($_COOKIE['user_id'])){
         });
     </script>
     <!-- Back to Home Button -->
-    <div>
+    <div style="justify-content: center; padding-left:45rem;">
         <a href="#" class="btn btn-primary">Back to Top</a>
     </div>
 

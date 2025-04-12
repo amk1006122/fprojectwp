@@ -69,7 +69,7 @@
         <a href="admin_panel/login.php">become a seller</a>
     </div>
         <!-- Back to Home Button -->
-        <div>
+        <div style="justify-content: center; padding-left:45rem;">
         <a href="#" class="btn btn-primary">Back to Top</a>
     </div>
 
