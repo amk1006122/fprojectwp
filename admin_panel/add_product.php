@@ -215,7 +215,7 @@
      }
 
          .btn:hover {
-         background: #d9534f;
+         background: red;
     }
          /* Responsive */
          @media (max-width: 600px) {

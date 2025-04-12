@@ -383,6 +383,8 @@ if (isset($_COOKIE['user_id'])) {
             <a href="menu.php" class="btn">shop now</a>
         </div>
     </div>
+     
+     
     <!--pride section end-->
     <?php include 'components/footer.php';?>
     <!--sweetalert cdn link-->

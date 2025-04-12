@@ -132,15 +132,6 @@ if(isset($_POST['submit'])) {
         <a href="../home.php" class="btn btn-primary">Back to Home</a>
     </div>
 
-
-
-
-
-
-
-
-
-
 <!--sweet alert cdn link-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" ></script>
 <!--custom js file link-->

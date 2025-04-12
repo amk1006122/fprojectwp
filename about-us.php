@@ -413,8 +413,8 @@ if(isset($_COOKIE['user_id'])){
         });
     </script>
     <!-- Back to Home Button -->
-    <div class="back-to-home">
-        <a href="home.php" class="btn btn-primary">Back to Home</a>
+    <div>
+        <a href="#" class="btn btn-primary">Back to Top</a>
     </div>
 
 

@@ -68,4 +68,10 @@
         <p>copyright &copy; 2025 Layout & home decor. All Rights Reserved</p>
         <a href="admin_panel/login.php">become a seller</a>
     </div>
+        <!-- Back to Home Button -->
+        <div>
+        <a href="#" class="btn btn-primary">Back to Top</a>
+    </div>
+
+
 </footer>
