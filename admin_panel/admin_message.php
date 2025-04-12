@@ -8,7 +8,7 @@
         header('location:login.php');
         exit();
     }
-     
+    
     // Update order payment status
     if (isset($_POST['update_order'])) {
         $order_id = $_POST['order_id'];
@@ -65,8 +65,8 @@
                    $select_order = $conn->prepare("SELECT * FROM `orders` WHERE seller_id = ?");
                 
 
-                   if ($select_order->rowCount() > 0) {
-                       while($fetch_order = $select_order->fetch(PDO::FETCH_ASSOC)) {
+                    if ($select_order->rowCount() > 0) {
+                        while($fetch_order = $select_order->fetch(PDO::FETCH_ASSOC)) {
                 ?>
                 <div class="box">
                     <div class="status" style="color: <?= ($fetch_order['status'] == 'in progress') ? 'limegreen' : 'red'; ?>">

@@ -90,6 +90,7 @@ $products = [
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body style="background-image:url(image/homebgimage5.jpg); background-repeat: no-repeat; background-size: cover;" >
+        
     
     <section class="main-home">
         <div class="main-text">
